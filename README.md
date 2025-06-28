@@ -1,1 +1,0 @@
-# xAtom Starter Project
