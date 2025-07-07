@@ -1,7 +1,11 @@
 import { onReady } from "@xatom/core";
-import { helloWorldRoutes } from "./routes";
+import { initCardsAndLinks } from "borgia/hscroll";
+import { animateHeadings, initNavAnimation } from "borgia/animate";
 
 onReady(() => {
-  helloWorldRoutes();
+  console.log("WASSUUPPPP")
+  initCardsAndLinks();
+  animateHeadings();
+  initNavAnimation();
 });
 

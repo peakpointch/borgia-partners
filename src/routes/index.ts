@@ -1,6 +1,6 @@
 import { WFRoute } from "@xatom/core";
-import { helloWorldFn } from "../modules";
+import { initCardsAndLinks } from "../modules/hscroll";
 
 export const helloWorldRoutes = () => {
-  new WFRoute("/").execute(helloWorldFn);
+  new WFRoute("/").execute(initCardsAndLinks);
 };

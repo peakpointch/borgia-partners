@@ -1,0 +1,14 @@
+html.wf-design-mode .padding-global {
+  pointer-events: none;
+}
+
+html.wf-design-mode .padding-global>* {
+  pointer-events: auto;
+}
+
+.timeline1_circle::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: var(--background);
+}
